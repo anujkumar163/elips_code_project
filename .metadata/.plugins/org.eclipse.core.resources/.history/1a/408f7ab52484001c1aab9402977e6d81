@@ -1,0 +1,14 @@
+package app_java_1;
+
+public class F {
+	static int x = 10;
+	public static void main(String[] args) {
+		System.out.println(F.x);
+		System.out.println(x);
+		F a1 = new F();
+		a1.test();
+	}
+	public void test() {
+		System.out.println(F.x);
+	}
+}

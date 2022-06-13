@@ -1,0 +1,13 @@
+package app_java_1;
+
+public class F {
+	public static void main(String[] args) {
+		F a1 = new F();
+		a1.test(10, 10.3f,'a', "Anuj", true);
+	}
+	public void test(int x1,float x2,char x3, String x4, boolean x5) {
+		System.out.println(x1);
+		System.out.println(x2);
+		System.out.println(x3);
+	}
+}

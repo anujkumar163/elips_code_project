@@ -1,0 +1,8 @@
+package app_java_1;
+
+public class F {
+	static F f1;
+	public static void main(String[] args) {
+		System.out.println(f1);
+	}
+}

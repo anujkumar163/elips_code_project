@@ -1,0 +1,9 @@
+package string;
+// non repeating number
+public class A {
+	public static void main(String[] args) {
+		String str = "abbcdda";
+		String str2 = "abfgh";
+		System.out.println(str.indexOf(2));
+	}
+}

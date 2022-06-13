@@ -1,0 +1,8 @@
+package app_java_1;
+
+public class F {
+	static String x = "ANuj";
+	public static void main(String[] args) {
+		System.out.println(F.x);
+	}
+}

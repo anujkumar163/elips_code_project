@@ -1,0 +1,12 @@
+package app_java_1;
+
+public class F {
+	F(int x, char y){
+		System.out.println(x);
+		System.out.println(y);
+		return;
+	}
+	public static void main(String[] args) {
+		F a1 = new F(10, 'a');
+	}
+}

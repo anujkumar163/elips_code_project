@@ -1,0 +1,11 @@
+package string;
+
+import java.util.Arrays;
+
+// non repeating number
+public class A {
+	public static void main(String[] args) {
+		List<Integer> name = Arrays.asList(1,2,3,4);
+	}
+}
+ 

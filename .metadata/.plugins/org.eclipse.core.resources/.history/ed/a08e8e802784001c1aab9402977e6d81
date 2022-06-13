@@ -1,0 +1,12 @@
+package app_java_1;
+
+public class F {
+	public static void main(String[] args) {
+		F a1 = new F();
+		String x = a1.test();
+		System.out.println(x);
+	}
+	public String test() {
+		return "NA";
+	}
+}

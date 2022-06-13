@@ -1,0 +1,17 @@
+package string;
+
+public class A {
+	public static void main(String[] args) {
+		String str = "abbcdda";
+		//boolean flag = true;
+		for(char i: str.toCharArray()) {
+			if(str.indexOf(i)==str.lastIndexOf(i)) {
+				System.out.println("first non-repeating string  "+ i);
+				//flag = false;
+				//break;
+			}else {
+				System.out.println("no non-repeative number");
+			}
+		}
+	}
+}
